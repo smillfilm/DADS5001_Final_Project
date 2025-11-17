@@ -1,9 +1,15 @@
-# streamlit_app.py
-
 import streamlit as st
 
-conn = st.connection("snowflake")
-df = conn.query("SELECT * FROM mytable;", ttl="10m")
+pages = {
+    "Your account": [
+        st.Page("create_account.py", title="Create your account"),
+        st.Page("manage_account.py", title="Manage your account"),
+    ],
+    "Resources": [
+        st.Page("learn.py", title="Learn about us"),
+        st.Page("trial.py", title="Try it out"),
+    ],
+}
 
-for row in df.itertuples():
-    st.write(f"{row.NAME} has a :{row.PET}:")
+pg = st.navigation(pages)
+pg.run()

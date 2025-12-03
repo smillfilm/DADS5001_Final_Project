@@ -1,5 +1,9 @@
 # DADS5001_Final_Project
 
-> Objective
-Praew test
-> 555
+Title:
+Issues and motivation: 
+Objective:
+Solution (Methodology):
+  Traditional:
+  AI add-on:
+Visualization (Streamlit + Plotly + …)

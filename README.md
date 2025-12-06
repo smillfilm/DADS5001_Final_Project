@@ -1,9 +1,9 @@
-# DADS5001_Final_Project
+# DADS5001: Final Project
 
-Title:
-Issues and motivation: 
-Objective:
-Solution (Methodology):
-  Traditional:
-  AI add-on:
-Visualization (Streamlit + Plotly + …)
+Title: Oilsophaeng
+
+Group member:
+1. 67204220
+2. 67204220
+3. 67204220
+4. 67204220
